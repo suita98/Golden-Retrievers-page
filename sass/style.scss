@@ -1,4 +1,11 @@
-/* https://coolors.co/eee3f4-5e0b15-37393a-90323d-d9cab3 */
+// Color
+$current: #7FB685;
+$nav-bar: #CBE896;
+$panel: #F4B886;
+$ground: #FCDFA6;
+$text-dark: #413C58;
+$text-light: #757761;
+
 
 @media 
 only screen and (max-width: 760px) {
@@ -47,35 +54,34 @@ only screen and (max-width: 760px) {
 }
 
 body {
-    background-color: #FCDFA6;
+    background-color: $ground;
     overflow-y:scroll;
 }
 
 nav {
-    background-color: #CBE896;
+    background-color: $nav-bar;
     margin-bottom: 20px;
     font-family: "Bookman";
 }
 
 h1 {
-    color: #757761;
+    color: $text-light;
     font-weight: 700!important;
 }
 
 a, p, h3, th, td, h4, li {
-    color: #413C58;
+    color: $text-dark;
     font-family: "Helvetica";
 }
 
 a#current-page {
-    color: #7FB685;
+    color: $current;
 }
 
 .list-group-item {
-    background-color: #F4B886;
+    background-color: $panel;
 }
 
 .table {
     width: 90%;
 }
-
