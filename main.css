@@ -62,7 +62,7 @@ h1 {
     font-weight: 700!important;
 }
 
-a, p {
+a, p, h3, th, td, h4, li {
     color: #413C58;
     font-family: "Helvetica";
 }
